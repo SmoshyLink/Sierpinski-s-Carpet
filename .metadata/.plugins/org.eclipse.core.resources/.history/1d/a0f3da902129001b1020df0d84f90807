@@ -1,0 +1,22 @@
+package cmps252.hw5_3;
+
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Sierpinski extends JPanel {
+	Graphics g;
+	
+	public void paintComponent (Graphic g) {
+		
+	}
+	
+	public static void main (String args[]) {
+		JFrame jf = new JFrame();
+		Sierpinski s = new Sierpinski();
+		jf.setSize(500, 500);
+		jf.setVisible(true);
+		jf.add(s);
+	}
+}
